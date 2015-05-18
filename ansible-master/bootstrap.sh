@@ -8,3 +8,6 @@ apt-get -y install ansible
 cat /home/vagrant/.ssh/id_rsa.pub >> /home/vagrant/.ssh/authorized_keys
 
 echo -e '172.16.1.10\n172.16.1.11\n172.16.1.12' > /etc/ansible/hosts
+
+# set private key permissions
+chmod 400 /home/vagrant/.ssh/id_rsa
