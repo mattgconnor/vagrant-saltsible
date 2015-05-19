@@ -14,14 +14,5 @@ vagrant up
 cd ..
 
 # SALT
-cd salt-slave1
+cd salt
 vagrant up
-cd ..
-
-cd salt-slave2
-vagrant up
-cd ..
-
-cd salt-master
-vagrant up
-cd ..

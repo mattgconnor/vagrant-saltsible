@@ -14,14 +14,5 @@ vagrant destroy -f
 cd ..
 
 # SALT
-cd salt-slave1
+cd salt
 vagrant destroy -f
-cd ..
-
-cd salt-slave2
-vagrant destroy -f
-cd ..
-
-cd salt-master
-vagrant destroy -f
-cd ..
